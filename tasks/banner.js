@@ -9,6 +9,4 @@ module.exports = ''
   + ' * http://opensource.org/licenses/MIT' + '\n'
   + ' *' + '\n'
   + ' */' + '\n'
-  + '\n'
-  + 'var jQuery = require(\'jquery\');'
 ;

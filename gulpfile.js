@@ -46,6 +46,7 @@ var
 
   // config
   banner       = require('./tasks/banner'),
+  commonjs_header = require('./tasks/commonjs_header'),
   comments     = require('./tasks/comments'),
   defaults     = require('./tasks/defaults'),
   log          = require('./tasks/log'),
@@ -424,6 +425,7 @@ gulp.task('package uncompressed js', false, function() {
     .pipe(plumber())
     .pipe(replace(assetPaths.uncompressed, assetPaths.packaged))
     .pipe(concat('semantic.js'))
+      .pipe(header(commonjs_header))
       .pipe(header(banner, settings.header))
       .pipe(gulp.dest(output.packaged))
       .pipe(print(log.created))
