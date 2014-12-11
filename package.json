@@ -17,9 +17,6 @@
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
   },
   "dependencies": {
-    "jquery": "x.x.x"
-  },
-  "devDependencies": {
     "better-console": "^0.2.3",
     "del": "^1.0.0",
     "extend": "^2.0.0",
