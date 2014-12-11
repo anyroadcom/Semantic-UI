@@ -161,7 +161,6 @@ var
 
 getConfigValues();
 
-
 /*******************************
              Tasks
 *******************************/
@@ -206,8 +205,8 @@ gulp.task('watch', 'Watch for site/theme changes (Default Task)', function(callb
       srcPath = srcPath.replace(source.site, source.definitions);
 
       // get relative asset path (path returns wrong path? hardcoded)
-      // assetPaths.source = path.relative(srcPath, path.resolve(source.themes));
-      assetPaths.source = '../../themes';
+      assetPaths.source = path.relative(srcPath, path.resolve(source.themes));
+      // assetPaths.source = '../../themes';
 
 
       if( fs.existsSync(srcPath) ) {
