@@ -33,6 +33,7 @@
     "shape",
     "transition",
     "form",
-    "menu"
+    "menu",
+    "dropdown"
   ]
 }
