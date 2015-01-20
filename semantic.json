@@ -35,6 +35,7 @@
     "form",
     "menu",
     "dropdown",
-    "icon"
+    "icon",
+    "dimmer"
   ]
 }
