@@ -36,6 +36,7 @@
     "menu",
     "dropdown",
     "icon",
-    "dimmer"
+    "dimmer",
+    "message"
   ]
 }
