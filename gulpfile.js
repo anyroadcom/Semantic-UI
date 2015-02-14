@@ -172,7 +172,6 @@ gulp.task('default', false, [
 
 gulp.task('watch', 'Watch for site/theme changes (Default Task)', function(callback) {
 
-  console.clear();
   console.log('Watching source files for changes');
 
   if(!fs.existsSync(config.files.theme)) {
