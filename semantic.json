@@ -37,6 +37,7 @@
     "dropdown",
     "icon",
     "dimmer",
-    "message"
+    "message",
+    "popup"
   ]
 }
