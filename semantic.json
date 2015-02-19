@@ -38,6 +38,7 @@
     "icon",
     "dimmer",
     "message",
-    "popup"
+    "popup",
+    "modal"
   ]
 }
