@@ -7,7 +7,8 @@
   "author": "Jack Lukic <jack@semantic-ui.com>",
   "license": "MIT",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "postinstall": "sh create_symlinks.sh"
   },
   "repository": {
     "type": "git",
