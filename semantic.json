@@ -39,6 +39,7 @@
     "dimmer",
     "message",
     "popup",
-    "modal"
+    "modal",
+    "sidebar"
   ]
 }
